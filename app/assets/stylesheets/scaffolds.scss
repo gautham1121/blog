@@ -47,12 +47,12 @@ div {
 }
 
 #notice {
-  color: green;
+  color: red;
 }
 
 .field_with_errors {
   padding: 2px;
-  background-color: red;
+  background-color: blue;
   display: table;
 }
 
@@ -74,7 +74,7 @@ div {
   }
 
   ul li {
-    font-size: 12px;
+    font-size: 22px;
     list-style: square;
   }
 }

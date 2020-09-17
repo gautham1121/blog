@@ -192,7 +192,7 @@ DEPENDENCIES
   duktape
   jbuilder (~> 2.5)
   puma (~> 3.11)
-  rails (~> 5.2.4, >= 5.2.4.3)
+  rails (~> 5.2.4, >= 5.2.4.4)
   sass-rails (~> 5.0)
   selenium-webdriver
   sqlite3

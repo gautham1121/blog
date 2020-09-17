@@ -7,14 +7,6 @@
   <%= render @post.comments.reverse %>
   </div>
 
-<%= form_for [@post, Comment.new], remote: true do |f| %>
-  <p>
-    <%= f.label :body, "New Comment" %><br />
-    <%= f.text_area :body %>
-    </p>
-    <p><%= f.submit "Add Comment" %></p>
-<% end %>
-
 
 
 

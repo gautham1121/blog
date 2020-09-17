@@ -1,0 +1,4 @@
+var new_comment = $("<%= j(render(@comment))%>").hide();
+$('#commnets').prepend(new_commnet);
+$('#comment_<%= @comment.id %>').fadeIn('slow');
+$('#new_comment')[0].reset(); 
